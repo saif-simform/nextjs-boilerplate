@@ -1,0 +1,10 @@
+# Ignore local overrides of dotenv configuration
+.env.local
+.env.test.local
+.env.development.local
+.env.development
+.env.sample
+.env
+
+# Webpack and Node.js
+node_modules
