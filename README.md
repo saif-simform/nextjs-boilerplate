@@ -1,31 +1,37 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## Introduction
+
+A personal boilerplate based on Next.js.
+
+features：Next.js, TypeScript, GraphQL, MongoDB, Tailwind CSS
 
 ## Getting Started
 
-First, run the development server:
+Before getting start, please make sure you have created an empty database (e.g. MongoDB). Then, rename `.env.example` to `.env` and edit the environment variable. This will enable MongoDB database connection, and the GraphQL communicate between client and server.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
+1. Install npm dependencies
+
+```
+npm install
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Start the app
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```
+npm run dev
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Open [http://localhost:3010](http://localhost:3010) with your browser to see the result.
 
-## Learn More
 
-To learn more about Next.js, take a look at the following resources:
+## Document for further reading
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- [Next.js](https://nextjs.org/docs/getting-started)
+- [GraphQL](https://graphql.org/learn/)
+- [GraphQL (Nexus)](https://nexusjs.org/docs/)
+- [MongoDB](https://www.mongodb.com/try/download/shell)
+- [Mongoose (docs)](https://mongoosejs.com/docs/)
+- [TypeScript](https://willh.gitbook.io/typescript-tutorial/basics)
+- [Tailwind CSS](https://tailwindcss.com/docs)
 
 ## Deploy on Vercel
 

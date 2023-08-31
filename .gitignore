@@ -5,6 +5,6 @@
 .env.development
 .env.sample
 .env
-
+.next
 # Webpack and Node.js
 node_modules
